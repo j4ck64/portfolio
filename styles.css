@@ -1,0 +1,120 @@
+* {
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-gold: #FFE9A2;
+    --secondary-gold: #f5edd3 ; 
+    --light-grey:#C7C1AC;
+    --dark-grey: #ffffff; 
+}
+  
+.navbar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navbar li {
+    float: left;
+    min-width: 120px;
+}
+
+.navbar .links {
+    float: right;
+}
+
+.navbar li a {
+    text-transform:capitalize;
+    display: block;
+    color: var(--secondary-gold);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: var(--primary-gold);
+    size: 60px;
+}
+
+.navbar .links a:hover:not(.active) {
+    color: white;
+    border-bottom: 1px solid var(--primary-gold);
+}
+
+.brief-intro{
+    /* The image used */
+    background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+    /* padding-top: 10%; */
+    /* Full height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: auto;
+}
+
+.brief-intro h1{
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 35vh;
+    padding-left: 0vw;
+    font-family: 'Segoe UI Semibold';
+    font-size: 75px;
+    color: var(--primary-gold);
+
+}
+.brief-intro .info{
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 15px;
+    padding-left: 2.5vw;
+    color: var(--secondary-gold);
+}
+
+.info a{
+    font-style: italic;
+    font-family: 'Segoe UI light';
+    color: var(--secondary-gold);
+    font-size: 20px;
+    color:  #f9cb34;
+}
+
+.info h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 35px;
+    color: var(--primary-gold);
+}
+.info button{
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    border-style: solid;
+    border-color: var(--primary-gold);
+    border-radius: 8px;
+
+}
+.info button a:hover{
+    background-color: rgba(0, 0, 0, 0.401);
+}
+
+.info p{
+    margin-right: 40%;
+    inline-size: 75%;
+    font-style: italic;
+    font-family: 'Segoe UI light';
+    color: var(--secondary-gold);
+    font-size: 20px;
+}
