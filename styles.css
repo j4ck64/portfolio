@@ -6,9 +6,9 @@
 
 :root {
     --primary-gold: #FFE9A2;
-    --secondary-gold: #f5edd3 ; 
+    --secondary-gold: #f5edd3; 
     --light-grey:#C7C1AC;
-    --dark-grey: #ffffff; 
+    --dark-grey: #1c1c1c; 
 }
   
 .navbar ul {
@@ -88,8 +88,10 @@
     font-style: italic;
     font-family: 'Segoe UI light';
     color: var(--secondary-gold);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1vw;
     color:  #f9cb34;
+    text-decoration: none;
 }
 
 .info h2{
@@ -116,5 +118,87 @@
     font-style: italic;
     font-family: 'Segoe UI light';
     color: var(--secondary-gold);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1vw;
 }
+
+.about{
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color:var(--dark-grey)
+
+}
+.about .holder{
+    flex: 50%;
+    float: right;
+    margin-right: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height:350px;
+    max-width:650px;
+    text-align: center;
+ }
+.about img{
+    float: right;
+    object-fit:cover;
+    object-position:40% ;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+
+.about p{
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+    flex: 50%;
+    padding-right: 10vw;
+    float: left;
+    inline-size: 55%;
+    font-family: 'Segoe UI light';
+    color: var(--secondary-gold);
+    /* font-size: 2rem; */
+    font-size: 2vw;
+}
+
+.certification{
+    object-position:left bottom;
+    /* object-position: bottom 10px right 20px; */
+    object-fit: fill;
+    background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+    /* padding-top: 10%; */
+    /* Full height */
+    height: fit-content; 
+    display: flex;
+    column-gap: 12vw;
+    padding-top: 5vh;
+    padding-bottom: auto;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.certification .city-guilds{
+    margin-top: 1dvh;
+    width: 14vw;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.certification .cyber-essentials{
+    /* width="672" height="352" */
+    width: 15vw;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.certification .fundamentalbadge-modified{
+    /* width="672" height="352" */
+    width: 14vw;
+    height: fit-content;
+    object-fit: cover;
+    margin-bottom:5vh;
+}
+
